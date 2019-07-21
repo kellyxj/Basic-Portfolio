@@ -49,11 +49,14 @@ nav a{
 nav li{
     list-style-type: none;
     display: inline;
+    padding-left: 15px;
 }
 
-.notLast ::after{
-    content: "|";
-    margin: 0px 15px 0px 15px;
+.notLast{
+    border-right: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    padding-right: 15px;
 }
 
 p{
