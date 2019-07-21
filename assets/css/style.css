@@ -59,8 +59,15 @@ nav li{
     padding-right: 15px;
 }
 
+#selfPic{
+    margin: 0px 15px 15px 15px;
+    float: left;
+}
+
 p{
-    
+    display: inline;
+    line-height: 2;
+    color: rgb(149, 119, 119);
 }
 
 hr{
@@ -95,6 +102,7 @@ label{
 
 input{
     margin-top: 5px;
+    padding: 2px 0px 2px 5px;
 }
 
 input[type="submit"]{
